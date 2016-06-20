@@ -2,8 +2,14 @@
 
 recursively compress any image in a directory
 
-# Install
+## Install
 pip install git+git://github.com/linuxluigi/tinyPNG_dir.git
 
-#Credits
+## Usage
+
+```bash
+tinypng_dir
+```
+
+## Credits
 created with [https://github.com/tinify/tinify-python](https://github.com/tinify/tinify-python)

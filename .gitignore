@@ -91,3 +91,6 @@ ENV/
 #WingIDE
 *.wpu
 *.wpr
+
+#pypi
+.pypirc

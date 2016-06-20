@@ -8,7 +8,7 @@ setup(
     packages=['tinypng_dir',],
     license='LICENSE',
     description='recursively compress any image in a directory',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     install_requires=[
         "tinify >= 1.3.0",
         "appdirs >= 1.4.0",

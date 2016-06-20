@@ -3,7 +3,15 @@
 recursively compress any image in a directory
 
 ## Install
+```bash
 pip install git+git://github.com/linuxluigi/tinyPNG_dir.git
+```
+
+or
+
+```bash
+pip install tinypng_dir
+```
 
 ## Usage
 

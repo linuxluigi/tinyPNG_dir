@@ -1,0 +1,10 @@
+#!/home/fubu/Documents/Dev/tinyPNG_dir/env2/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'tinypng-dir==0.1.dev0','console_scripts','tinypng_dir'
+__requires__ = 'tinypng-dir==0.1.dev0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('tinypng-dir==0.1.dev0', 'console_scripts', 'tinypng_dir')()
+    )

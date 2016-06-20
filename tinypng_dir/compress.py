@@ -2,7 +2,7 @@ import __future__
 
 from appdirs import AppDirs
 import os
-import config
+from .config import get_api_key
 import tinify
 import fnmatch
 
@@ -30,8 +30,8 @@ def compress_image(images):
         source.to_file(image)
         print (image)
 
-# main
-tinify.key = config.get_api_key()
-directory = get_directory()
-images = get_images(directory)
-compress_image (images)
+def main():
+    tinify.key = get_api_key()
+    directory = get_directory()
+    images = get_images(directory)
+    compress_image (images)
